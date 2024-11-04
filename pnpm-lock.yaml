@@ -100,16 +100,6 @@ importers:
         specifier: 5.5.4
         version: 5.5.4
 
-  apps/test:
-    dependencies:
-      axios:
-        specifier: ^1.7.7
-        version: 1.7.7
-    devDependencies:
-      jest:
-        specifier: ^29.7.0
-        version: 29.7.0(@types/node@20.17.3)
-
   apps/ws:
     dependencies:
       '@repo/db':
@@ -197,6 +187,16 @@ importers:
       vitest:
         specifier: ^2.1.4
         version: 2.1.4(@types/node@20.17.3)
+
+  packages/test:
+    dependencies:
+      axios:
+        specifier: ^1.7.7
+        version: 1.7.7
+    devDependencies:
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.17.3)
 
   packages/typescript-config: {}
 

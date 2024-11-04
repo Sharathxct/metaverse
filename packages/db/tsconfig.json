@@ -4,12 +4,9 @@
     "lib": ["ES2015"],
     "outDir": "./dist",
     "strict":  true,
-    "typeRoots": [
-      "./src/@types",
-      "./node_modules/@types"
-    ],
     "rootDir": "./src"
   },
   "exclude": ["node_modules"],
   "include": ["src"]
 }
+
